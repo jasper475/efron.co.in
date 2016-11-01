@@ -1,0 +1,291 @@
+
+div.profileWrap{
+	border-radius: 10px;
+	 border: 2px solid #D1D1D1;
+color:white;
+box-shadow: 2px 2px 10px 0px #ababab;
+
+padding: 10px 15px 10px 15px;
+}
+
+div.profileWrap:HOVER
+{
+	box-shadow: 2px 2px 20px 0px #ababab;
+}
+div.profilePic{
+	border-radius: 70px ;
+	height: 150px;
+	width: 150px;
+	/*background-image: url("../images/band_members.jpg");*/
+	float: left;
+	background-position:37% 0%;	
+	margin-top: 10px;
+
+}
+
+
+div.profilePic img{
+	border-radius: 25px 0;
+	cursor: pointer;
+	animation-timing-function: ease;
+}
+
+
+div.profileName{
+	float: left;
+	margin-top: 50px;
+}
+div.profileName a#name{
+	font-size: 15px;
+	color:gray;
+	margin-top: 67px;
+	/*background-color: skyblue;*/
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+div.profileName a#name:HOVER{
+	font-size: 15px;
+	color:gray;
+	margin-top: 67px;
+	/*background-color: gray;*/
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.center{
+	width: 100%;
+}
+
+.clearFix{
+	clear: both;
+
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+.profileTag{
+	background-color: #6666ff;
+    background-image: linear-gradient(to bottom, #6666ff, #9999ff);
+    border: 1px dashed #616261;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    float: left;
+
+}
+
+
+#Tour{
+	background-image: url("../images/bg3.png");
+
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.TourTile{
+	 border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+   
+    height: 300px;
+    border: dashed;
+   /* overflow: scroll;*/
+}
+
+.TourDate{
+	padding: 10px;
+	font-size: 30px;
+	background: #ed1515;
+	  background-image: -webkit-linear-gradient(top, #ed1515, #8c2d3d);
+	  background-image: -moz-linear-gradient(top, #ed1515, #8c2d3d);
+	  background-image: -ms-linear-gradient(top, #ed1515, #8c2d3d);
+	  background-image: -o-linear-gradient(top, #ed1515, #8c2d3d);
+	  background-image: linear-gradient(to bottom, #ed1515, #8c2d3d);
+	  -webkit-border-radius: 2;
+	  -moz-border-radius: 2;
+	  border-radius: 2px;
+	  text-shadow: 4px 1px 3px #666666;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 35px;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+	  text-align: center;
+}
+
+.TourDate:hover {
+  background: #661313;
+  background-image: -webkit-linear-gradient(top, #661313, #e62222);
+  background-image: -moz-linear-gradient(top, #661313, #e62222);
+  background-image: -ms-linear-gradient(top, #661313, #e62222);
+  background-image: -o-linear-gradient(top, #661313, #e62222);
+  background-image: linear-gradient(to bottom, #661313, #e62222);
+  text-decoration: none;
+}
+
+
+.TourDetails{
+font-size: 28pt;
+	text-align: center;
+}
+
+.bottomBar{
+	border-bottom: dashed;
+	width: 50%;
+
+}
+
+.featurette{
+	background-color: #ffffff;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+
+
+
+.featurette-image{
+	background-color: #ffffff;
+	opacity: 0.9;
+	/*border-radius: 10px;*/
+	}
+
+
+.featurette blockquote {
+	
+	font-family: Perpetua,Papyrus,Verdana, Geneva, sans-serif;
+}
+
+
+.container{
+	background-color: white;
+	opacity: 1;
+	/*background-image: url("../images/digital.jpg");*/
+	height: auto;
+	/*background-attachment: fixed;*/
+}
+
+
+
+a.texter{
+	color: gray;
+	font-style: italic;
+	text-decoration: none;
+
+}
+
+a.#dimps{
+
+}
+.graytxt {
+	color: gray;
+	font-style: italic;
+	text-decoration: none;
+}
+h3 a.title_texter{
+	color: gray;
+	font-style: italic;
+	text-decoration: none;
+	}
+
+.popup
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	left: 0;
+	top: 0;
+	overflow: auto;
+	background-color:  rgba(0,0,0,0.4);
+
+	}
+
+
+	.popup-content{
+		margin: 15% auto;
+		width: 70%;
+		height: 300px;
+		background-color: gray;
+
+	}
+
+
+	.popupclose{
+		float: right;
+	}
+
+	#more{
+		padding:2px; 
+	}
+
+
+
+	#draggable { 
+		width: 150px; 
+		height: 150px; 
+		padding: 0.5em;
+		background-color: green;
+		 }
+
+
+.sizer{
+	max-height:100%; 
+	max-width:100%;
+	/*opacity: 0.9;*/
+}
+
+
+
+
+.counters
+{
+	 margin: auto 0;
+	 background-color: gray;
+
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+p,h2,th,td,ul.slanty > li{
+	font-style: oblique;
+	font-family: "octin", Helvetica, Arial, sans-serif;
+}
+
+
+
+.top-spacer
+{
+	margin-top: 35px;
+}
+
+
+.left-spacer
+{
+	margin-left: 15px;
+}
